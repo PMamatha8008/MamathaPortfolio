@@ -12,7 +12,7 @@ const ContactSocial = () => {
         download
         target="_blank"
         rel="noopener noreferrer"
-        className="text-xl hover:text-[#38bdf8] transition-all duration-300"
+        className="text-xl hover:text-[#3283a5] transition-all duration-300"
         title="Download Resume"
       >
         <FaUser />

@@ -8,21 +8,21 @@ const projects = [
     name: "MCV",
     // year: "Mar2022",
     align: "right",
-    image: "../../public/images/MCV.png",
+    image: "/images/MCV.png",
     link: "https://dev.d3cvg3d3sr01jx.amplifyapp.com/"
   },
   {
     name: "Kidhood",
     // year: "Sept2022",
     align: "left",
-    image: "../../public/images/Kidhood.png",
+    image: "/images/Kidhood.jpeg",
     link: "https://dev.d3ferxge2alqvl.amplifyapp.com/"
   },
   {
     name: "StacX",
     // year: "Jan2023",
     align: "right",
-    image: "../../public/images/StacX.png",
+    image: "/images/StacX.png",
     link: "https://employee-dash-stage.stacx.app/",
   },
 ];
@@ -47,6 +47,7 @@ const ProjectsMain = () => {
               year={project.year}
               align={project.align}
               image={project.image}
+              link={project.link}
             />
           );
         })}

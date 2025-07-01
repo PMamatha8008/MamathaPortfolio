@@ -44,7 +44,6 @@ const AllExperiences = () => {
     <div className="flex md:flex-row sm:flex-col items-center justify-between">
       {experiences.map((experience, index) => {
         return (
-          // <React.Fragment key={index}>
           <Fragment key={index}>
             <SingleExperience experience={experience} />
             {index < 2 ? (

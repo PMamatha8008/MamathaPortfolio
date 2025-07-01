@@ -6,9 +6,6 @@ const ProjectsText = () => {
         I’ve built projects tailored for real-world use—whether it's a business
         site, admin panel, or data-driven dashboard-focusing on clean code and
         seamless UX
-        {/* I have worked on a variety of web development projects, ranging from
-        responsive websites for small businesses to full-stack applications and
-        complex front-end interfaces. */}
       </p>
     </div>
   );
